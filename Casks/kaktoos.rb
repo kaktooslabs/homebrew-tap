@@ -4,21 +4,21 @@ cask "kaktoos" do
 
   on_macos do
     on_arm do
-      sha256 "590d071cfe3f9dcc8735820c47ee7f2007d47b9dc2cbf2f3b544c53cbf054149"
+      sha256 "ea84d5a29bb198dfc43c451aaea0ecd180b3ef0ce663abe467b62e8cb342a533"
       url "https://github.com/kaktooslabs/kaktoos/releases/download/v#{version}/kaktoos_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "401596163ef2c7ef1110b79e689fe631a420a3b0a80f3d5189de6ab3ea36e0fc"
+      sha256 "96da59de107d40ff8693410fc64f377d8c870651e9e403147ccdece44c835611"
       url "https://github.com/kaktooslabs/kaktoos/releases/download/v#{version}/kaktoos_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "d0a522abcf14356afc7261f3026188b3ad3860f8a01a8bd945eedb3d39c177fc"
+      sha256 "82d94e600b2d117876b4122e4213baf5c2aace290c849d4b05093423e7a71bda"
       url "https://github.com/kaktooslabs/kaktoos/releases/download/v#{version}/kaktoos_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "575825a09e56ed7330d07fd348f0e153bfa19d6a509f601f14a3e71433868b9d"
+      sha256 "991f67aef82e0b56ed12a00b1c76debfd7302cdcfa83ea754f75bda9d0d754ec"
       url "https://github.com/kaktooslabs/kaktoos/releases/download/v#{version}/kaktoos_Linux_x86_64.tar.gz"
     end
   end
